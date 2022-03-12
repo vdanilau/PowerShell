@@ -20,3 +20,5 @@ if ($sum1 -eq $sum2){
 else {
     Write-Output "You are the Looser!"
 }
+
+$ticketChars = $ticket.ToCharArray() # just for example
